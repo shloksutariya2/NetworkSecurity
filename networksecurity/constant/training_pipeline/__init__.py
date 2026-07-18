@@ -42,4 +42,9 @@ DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
+DATA_TRANSFORMATION_IMPUTER_PARAMS = {
+    "missing_values": np.nan,
+    "n_neighbors": 3,
+    "weights": "uniform"
+}
 
