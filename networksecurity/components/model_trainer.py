@@ -48,10 +48,8 @@ class ModelTrainer:
             raise NetworkSecurityException(e,sys)
         
     def track_mlflow(self, best_model, classificationmetric):
-        print("========== MLFLOW TRACKING STARTED ==========")
 
         with mlflow.start_run():
-            print("========== MLFLOW RUN CREATED ==========")
 
             mlflow.log_metric("f1_score", classificationmetric.f1_score)
             mlflow.log_metric("precision", classificationmetric.precision_score)
