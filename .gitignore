@@ -1,2 +1,7 @@
-venv
-.env-m 
+venv/
+.env
+__pycache__/
+*.pyc
+Artifacts/
+mlruns/
+logs/
