@@ -1,4 +1,4 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: networksecurity
 Version: 0.0.1
 Author: Shlok
@@ -12,6 +12,4 @@ Requires-Dist: pymongo==3.6
 Requires-Dist: scikit-learn
 Requires-Dist: dill
 Requires-Dist: pymal
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist
+Requires-Dist: mlflow
