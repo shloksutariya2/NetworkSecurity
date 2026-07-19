@@ -22,6 +22,7 @@ MODEL_FILE_NAME = "model.pkl"
 
 
 
+
 """
 Data Ingestion related constant start with DATA_INGESTION VAR NAME
 """
@@ -47,4 +48,10 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS = {
     "n_neighbors": 3,
     "weights": "uniform"
 }
-
+DATA_TRANSFORMATION_DIR_NAME = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR = "transformed_object"
+MODEL_TRAINER_DIR_NAME = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR = "trained_model"
+MODEL_TRAINER_EXPECTED_SCORE = 0.6
+MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD = 0.05
