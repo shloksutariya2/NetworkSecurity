@@ -1,11 +1,16 @@
 python-dotenv
 pandas
 numpy
-pymongo
+pymongo==3.6
 certifi
 scikit-learn
 dill
 pymal
 mlflow
 dagshub
+fastapi
+uvicorn
+
+
+
 #-e .
